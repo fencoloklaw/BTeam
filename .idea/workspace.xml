@@ -1,137 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c098cda-8682-4c45-a9c1-4aff5ab4913c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/SUPPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis/github_deploy_key.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTeam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTeam.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modernizr-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OAuth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PHPMailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POP3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMTP.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aboutPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/broker-signup-modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/TOC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/css.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/extend.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/js.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/email_contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/BTeamLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/aboutus-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/agreement-business.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/apartment-architecture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/brown-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/businessman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/check-form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/coin-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/coin-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/deal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/dealsubmission.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/doge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/down-arrow-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/down-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/homepagesecondsection-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/agreement-business.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/apartment-architecture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/brown-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/check-form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/deal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/doge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/down-arrow-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/down-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/patio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/profile-img.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/realEstate1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/realEstateCity.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/realEstateCity2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/speech-bubble.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img/stairs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main_page.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/patio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/profile-img.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/realEstate1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/realEstateCity.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/realEstateCity2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/recentlyfunded.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/speech-bubble.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/stairs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/team-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/team-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/teamwork.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/testimonial_1-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/testimonial_2-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/testimonial_3-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/testimonial_4-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/testimonial_5-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/testimonial_6-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/testimonial_7-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/trust.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/up-arrow-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/up-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/yellow-border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lender-signup-modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recentlyFunded.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/submissionForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/submission_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile-wide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/video/HomePage.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/video/HomePageSmall.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/video/HomePageSmall.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/video/Submission.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/file_content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/file_existence.js" afterDir="false" />
-    </list>
+    <list default="true" id="6c098cda-8682-4c45-a9c1-4aff5ab4913c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -384,7 +254,7 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="y" value="1" />
     <option name="width" value="1920" />
@@ -566,18 +436,17 @@
       <workItem from="1542696454018" duration="576000" />
       <workItem from="1542697208349" duration="1298000" />
       <workItem from="1542698529058" duration="656000" />
-      <workItem from="1542700975806" duration="719000" />
+      <workItem from="1542700975806" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296772000" />
+    <option name="totallyTimeSpent" value="297047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2782516" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2782516" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -595,7 +464,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
