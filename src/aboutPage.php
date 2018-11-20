@@ -13,16 +13,10 @@
           <h1 class="font-theme font-weight-bold pb-3">ABOUT</h1>
        	</div>
           <h4 class="font-theme pb-3">
-            B-Team specializes in Sub-prime (non-conforming) loans to help you deal with B level lenders.
-            We connect with mortgage brokers that have applicants who have been denied from AAA business with our private lenders that help them fund their “B Deals”.
+            B-Team specializes in Sub-prime (Non-conforming) mortgages, with comprehensive experts to analyze your financial situation and connect you with the right lender for your portfolio.
           </h4>
           <p class="px-5">
-            Our broad range of resources in the industry is what makes our client to agent relationships so successful.
-            We specialize in Sub-prime (non-conforming) loans to help you deal with B level lenders. We connect with mortgage brokers that have applicants who have been denied from AAA business with our private lenders that help them fund their “B Deals”.
-            We carefully evaluate and choose the most suitable solution for both lenders and mortgage applicants. Moreover, we will take the initiative and be with you every step of the way, speaking directly with lenders, negotiating finance terms, and in the end, providing you with the most valuable and suitable solution.
-            Banks have high standards and specific requirements when approving clients mortgage applications.
-            We don’t want people to feel discouraged when their application gets denied.
-            There is a solution! And The B Team is here to help.
+            B team has wide-range of resources in the financing industry which makes the client to agent relationship so successful.  The B team specializes in Sub-Prime (non-conforming) loans to help you deal with B level lenders. The B Team mortgage specialists carefully evaluate and choose the most suitable solution for both lenders and mortgage applicants. They take the initiative to be with you every step of the way. They will speak directly with lenders, negotiate the best finance terms, and provide you with the most valuable and suitable solution. We don’t want you to feel discouraged if your application gets denied by the traditional banks. There is a solution for every mortgage seeker!
           </p>
         </div>
       </div>

@@ -75,15 +75,15 @@
 }
 
 .font-theme {
-  color:  #A69374 !important;
+  color:  #dab96b !important;
 }
 
 .font-input-theme {
-  color: #e3b878;
+  color: #dab96b;
 }
 
 .background-theme {
-  background-color: #A69374 !important;
+  background-color: #dab96b !important;
 }
 
 @keyframes fadeIn {
@@ -210,19 +210,19 @@ body, html{
 }
 
 .theme-stripe-bg {
-  background-color: #A69374;
+  background-color: #dab96b;
 }
 
 .btn-outline-theme {
-  color: #A69374;
+  color: #dab96b;
   background-color: transparent;
   background-image: none;
-  border-color: #A69374;
+  border-color: #dab96b;
 }
 
 .btn-outline-theme:hover{
   color:white;
-  background-color: #A69374;
+  background-color: #dab96b;
 }
 
 .btn:focus, .btn:active, .btn::selection {
@@ -232,16 +232,16 @@ body, html{
 
 .btn-theme {
   color: white;
-  background-color: #A69374;
+  background-color: #dab96b;
   background-image: none;
   border-color: transparent;
 }
 
 .btn-theme:hover {
-  color: #A69374;
+  color: #dab96b;
   background-color: white;
   background-image: none;
-  border-color: #A69374;
+  border-color: #dab96b;
 }
 
 .success {

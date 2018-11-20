@@ -11,7 +11,7 @@ require_once ("header.php");
       <div class="row w-100">
 <!--        <div onclick="location.href='index.php'" class="navbar-brand d-block d-lg-none font-theme ml-auto mr-auto fadeIn" style="font-size:4rem; padding-left:calc(5rem + 30px);">TB</div>-->
         <div onclick="location.href='index.php'" class="navbar-brand d-block d-lg-none font-theme ml-auto mr-auto fadeIn">
-          <img style="width:175px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
+          <img style="width:200px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
         </div>
         <button class="navbar-toggler mt-4 mr-3" style="height:fit-content; border:3px solid;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ require_once ("header.php");
         </ul>
 <!--        <div onclick="location.href='index.php'" class="navbar-brand d-none d-lg-block font-theme ml-auto mr-auto fadeIn" style="font-size:4rem;">TB</div>-->
         <div onclick="location.href='index.php'" class="navbar-brand d-none d-lg-block font-theme ml-auto mr-auto fadeIn">
-          <img style="width:175px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
+          <img style="width:200px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
         </div>
         <ul class="nav navbar-nav mr-auto">
           <li class="nav-item" data-target="#navbarSupportedContent">

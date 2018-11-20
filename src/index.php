@@ -39,14 +39,11 @@
         </div>
       </div>
     </div>
-    <div class="col-6 container p-5 d-flex flex-column justify-content-center" style="background-color:#e3b878">
+    <div class="col-6 container p-5 d-flex flex-column justify-content-center background-theme">
       <h1 class="font-weight-bold text-center pt-5">OUR PHILOSOPHY</h1>
       <div class="px-lg-5">
         <p class="p-5" style="color:#4d4b4b">
-          B-lenders are not available to the general public so access through a broker is essential.
-          The B Team thrives in taking qualified applicants through the process of B-lending which opens new opportunities for these clients.
-          We believe, just because you may not qualify for financing from Traditional Financial institutions, you should still get the opportunity to grow your portfolio and move closer to your dreams.
-          We are with our clients every step of the way. From speaking directly to our lenders, communicating directly with you, negotiating finance terms, and in the end, agreeing on a suitable solution for you.
+          Acquiring mortgage loans through traditional prime-lenders ( A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, the B team believes that every applicant should have the opportunity to get their mortgage approved. The B team not only helps you connect with lenders but work closely with you to help you build up your credit. The B team will make sure that your financial commitment can match whatever your future goal is, from purchasing a new home to a mortgage to build a home.
         </p>
         <div class="d-flex justify-content-center">
           <a class="btn btn-lg btn-square btn-outline-dark" href="aboutPage.php">ABOUT US</a>
