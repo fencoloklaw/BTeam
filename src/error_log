@@ -1,0 +1,5 @@
+[13-Sep-2018 08:03:07 UTC] PHP Notice:  Undefined variable: mail in /home/ri87hk4zvi5f/public_html/BTeamHTML/email_contact.php on line 37
+[13-Sep-2018 08:03:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on null in /home/ri87hk4zvi5f/public_html/BTeamHTML/email_contact.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/ri87hk4zvi5f/public_html/BTeamHTML/email_contact.php on line 37

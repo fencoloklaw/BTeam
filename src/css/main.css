@@ -1,0 +1,623 @@
+.bt-logo {
+  border: 3px #A69374 solid;
+  height: 275px;
+  width: 275px;
+  margin-top:auto;
+}
+
+.header-overlay {
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.modal-dialog {
+  max-width: 850px;
+  height:75%;
+}
+
+.modal-content {
+  height: 75%;
+  border-radius: 0;
+  position:relative;
+}
+
+.modal-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.img_wrapper {
+  position: relative;
+}
+
+.img_description{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(192,192,192, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.img_wrapper:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img_description_text {
+  text-overflow:ellipsis;
+  overflow-y: auto;
+}
+
+.font-theme {
+  color:  #A69374 !important;
+}
+
+.font-input-theme {
+  color: #e3b878;
+}
+
+.background-theme {
+  background-color: #A69374 !important;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.fadeIn-15 {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 15s;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family:playfair display,serif;
+}
+
+.page {
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrowImage {
+  height:50px;
+  width:50px;
+}
+
+.patio {
+  background-image: url("../img/patio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.business {
+  background-image: url("../img/agreement-business.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.teamwork {
+  background-image: url("../img/teamwork.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-page {
+  background-image: url("../img/realEstateCity2.jpg");
+}
+
+.aboutUs {
+  background-image: url("../img/aboutus-min.jpg");
+}
+
+.imageContainer {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.half-page {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.noUnderLine {
+  text-decoration: none;
+}
+
+.btn {
+  border: 2px solid;
+}
+
+.btn-square {
+  border-radius: 0 !important;
+}
+
+.diagonal-background {
+  width: 100px;
+  height: 50px;
+}
+
+.diagonal-line {
+  width: 112px;
+  height: 47px;
+  border-bottom: 3px solid black;
+  -webkit-transform:
+    translateY(-20px)
+    translateX(5px)
+    rotate(-40deg);
+  position: absolute;
+}
+
+.black-stripe-bg {
+  background-color: #343a40;
+}
+
+.theme-stripe-bg {
+  background-color: #A69374;
+}
+
+.btn-outline-theme {
+  color: #A69374;
+  background-color: transparent;
+  background-image: none;
+  border-color: #A69374;
+}
+
+.btn-outline-theme:hover{
+  color:white;
+  background-color: #A69374;
+}
+
+.btn:focus, .btn:active, .btn::selection {
+  outline:none !important;
+  box-shadow:none;
+}
+
+.btn-theme {
+  color: white;
+  background-color: #A69374;
+  background-image: none;
+  border-color: transparent;
+}
+
+.btn-theme:hover {
+  color: #A69374;
+  background-color: white;
+  background-image: none;
+  border-color: #A69374;
+}
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+br {
+  content: " ";
+  display: block;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.h1, h1 {
+  font-size: 3rem;
+}
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  /*background-color: #343a4033 !important;*/
+  padding: 0;
+}
+
+.navbar.scrolled {
+  background-color: #343a40 !important;
+  transition: background-color 500ms linear;
+  opacity: 0.9;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.nav > .nav-item > .nav-link {
+  color: white;
+  font-weight:bold;
+}
+
+.navbar-nav > .nav-item {
+  margin-right: 1rem;
+  margin-left: auto;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.form-control {
+  background-color: lightgray;
+  border-color: lightgray;
+  color:black;
+}
+
+.form-control:focus {
+  background-color: lightgray;
+  border-color: lightgray;
+  outline:0 !important;
+  color:black;
+}
+
+.form-control::selection {
+  background-color: lightgray;
+  border-color: lightgray;
+  outline:0 !important;
+  color:black;
+}
+
+.form-control::-webkit-input-placeholder { color: black; }  /* WebKit, Blink, Edge */
+.form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: black; }  /* Internet Explorer 10-11 */
+.form-control:-ms-input-placeholder { color: black; } /* Microsoft Edge */
+
+#frontPage { width:100%; position: relative; }
+#videoBlock { width: 100%; display: flex; justify-content:center; align-items: center; z-index: -200; background-size: cover; overflow: hidden;}
+#videoMessage {width: 100%; position: absolute; top: 0; left: 0;}
+
+
+.row:before {
+  display: inline-block;
+}
+
+.row:after {
+  display: inline-block;
+}
