@@ -42,25 +42,31 @@ require 'Exception.php';
 
     $mail = new PHPMailer;
     $mail->isSMTP();
+    try {
 //    $mail->SMTPDebug = 2;
-    $mail->SetFrom($header);
-    $mail->Host = "a2plcpnl0102.prod.iad2.secureserver.net";    // Must be GoDaddy host name
-    $mail->Port = 587;    // Must use port 587 with TLS
-    $mail->SMTPSecure = 'tls';   // ssl will no longer work on GoDaddy CPanel SMTP
-    $mail->SMTPAuth = true;
-    $mail->Username = 'ri87hk4zvi5f';
-    $mail->Password = 'K=^uuS,6qM';
-    $mail->Subject = $subject;
-    $mail->Body = $full_message;
-    $mail->IsHTML(true);
-    $mail->AddAddress("$email");
-    if(!$mail->send()) {
+      $mail->SetFrom($header);
+      $mail->Host = "a2plcpnl0102.prod.iad2.secureserver.net";    // Must be GoDaddy host name
+      $mail->Port = 587;    // Must use port 587 with TLS
+      $mail->SMTPSecure = 'tls';   // ssl will no longer work on GoDaddy CPanel SMTP
+      $mail->SMTPAuth = true;
+      $mail->Username = 'ri87hk4zvi5f';
+      $mail->Password = 'K=^uuS,6qM';
+      $mail->Subject = $subject;
+      $mail->Body = $full_message;
+      $mail->IsHTML(true);
+      $mail->AddAddress($email);
+      $mail->send();
+      echo 'Message has been sent';
+    }
+    catch (Exception $e) {
       http_response_code(500);
       echo 'Message could not be sent.';
-      echo 'Mailer Error: ' . $mail->ErrorInfo;
-    } else {
-      http_response_code(200);
-      echo 'Message has been sent';
+      echo $e->errorMessage();
+    }
+    catch (\Exception $e){
+      http_response_code(500);
+      echo 'Message could not be sent.';
+      echo $e->getMessage();
     }
   }
 ?>
