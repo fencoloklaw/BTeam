@@ -5,7 +5,7 @@
 <div style="height:100%">
   <div class="container-fluid d-flex flex-column justify-content-end imageContainer" style="background-image:url('img/contact.jpg')">
   </div>
-  <div style="background-image:linear-gradient(white,#dab96b)">
+  <div>
     <div class="container p-5">
       <div class="row mt-auto mb-auto">
         <div id="contact_form" class="col d-inline px-5">
@@ -13,13 +13,14 @@
           <h1 class="font-theme font-weight-bold px-5">CONTACT</h1>
         </div>
           <form id="ajax-contact" action="email_contact.php" method="post">
-            <label>Name *</label>
             <div class="form-group row">
               <div class="col-6">
-                <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" placeholder="First name" required>
+                <label>First Name *</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" required>
               </div>
               <div class="col-6">
-                <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" placeholder="Last name" required>
+                <label>Last Name *</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" required>
               </div>
             </div>
             <div class="form-group">

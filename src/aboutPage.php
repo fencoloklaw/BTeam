@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-  <div id="BStar" class="container d-flex flex-column justify-content-center pt-5">
+  <div id="BStar" class="container d-flex flex-column justify-content-center pt-5 page-section">
     <h1 class="font-theme text-center">THE "B" <u class="font-underline">STARS</u></h1>
     <div class="p-5">
       <div class="row">

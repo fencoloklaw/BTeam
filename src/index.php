@@ -31,7 +31,7 @@
       <h1 class="text-light w-100 text-center" style="font-size:5rem;"><span class="font-weight-bold">Trust. Honesty. Reliability</span></h1>
     </div>
   </div>
-  <div id="aboutUs" class="d-flex row">
+  <div id="aboutUs" class="d-flex row page-section">
     <div class="col-6 d-flex flex-column p-5" style="background-color: #2c2c2c;">
       <div class="h-100 container d-flex justify-content-center">
         <div style="margin:auto; width:50%;">
@@ -42,7 +42,7 @@
     <div class="col-6 container p-5 d-flex flex-column justify-content-center background-theme">
       <h1 class="font-weight-bold text-center pt-5">OUR PHILOSOPHY</h1>
       <div class="px-lg-5">
-        <p class="p-5" style="color:#4d4b4b">
+        <p class="p-3" style="color:#4d4b4b">
           Acquiring mortgage loans through traditional prime-lenders ( A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, the B team believes that every applicant should have the opportunity to get their mortgage approved. The B team not only helps you connect with lenders but work closely with you to help you build up your credit. The B team will make sure that your financial commitment can match whatever your future goal is, from purchasing a new home to a mortgage to build a home.
         </p>
         <div class="d-flex justify-content-center">
@@ -51,7 +51,7 @@
       </div>
     </div>
   </div>
-  <div id="submissionProcess" class="p-lg-5 py-5" style="background-image:linear-gradient(white,#fafafa)">
+  <div id="submissionProcess" class="p-lg-5 py-5">
     <div class="container">
       <div id="submissionTitle" class="fadeIn" style="border-bottom: 1px solid">
         <h1 class="text-center font-weight-bold p-3">SUBMISSION PROCESS</h1>
@@ -86,7 +86,7 @@
       </div>
     </div>
   </div>
-  <div id="testimonial" class="d-flex flex-column p-5" style="background-image:linear-gradient(#fafafa,white)">
+  <div id="testimonial" class="d-flex flex-column p-5 page-section" style="background-color:#fafafa">
     <h1 class="text-center fadeIn font-theme font-weight-bold">RECENTLY FUNDED</h1>
     <div id="testimonial-row-1" class="row pb-3" style="height:320px;">
       <div class="img_wrapper col-3 px-1 h-100">
@@ -103,7 +103,7 @@
             Lender: AP Capital<br/>
             Income: BFS & Part Time Employee (NIQ)<br/>
             Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vechile loan.
+            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vehicle loan.
           </p>
         </div>
       </div>
@@ -219,7 +219,7 @@
       </div>
     </div>
   </div>
-  <div id="index_contact" class="py-lg-5 py-3" style="background-image:linear-gradient(white,#dab96b)">
+  <div id="index_contact" class="py-lg-5 py-3">
     <div class="container">
       <div class="row mt-auto mb-auto">
         <div id="contact_form" class="col d-inline px-5">
@@ -227,13 +227,14 @@
             <h1 class="font-theme font-weight-bold px-5">CONTACT</h1>
           </div>
           <form id="ajax-contact" action="email_contact.php" method="post">
-            <label>Name *</label>
             <div class="form-group row">
               <div class="col-6">
-                <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" placeholder="First name" required>
+                <label>First Name *</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" required>
               </div>
               <div class="col-6">
-                <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" placeholder="Last name" required>
+                <label>Last Name *</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" required>
               </div>
             </div>
             <div class="form-group row">

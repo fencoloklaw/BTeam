@@ -22,13 +22,14 @@ require_once ("navbar.php")
       </h4>
     </div>
     <form id="ajax-contact" action="email_contact.php" method="post">
-      <label>Name *</label>
       <div class="form-group row">
         <div class="col-6">
-          <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" placeholder="First name" required>
+          <label>First Name *</label>
+          <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" required>
         </div>
         <div class="col-6">
-          <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" placeholder="Last name" required>
+          <label>Last Name *</label>
+          <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" required>
         </div>
       </div>
       <div class="form-group">

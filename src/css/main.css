@@ -5,6 +5,10 @@
   margin-top:auto;
 }
 
+.page-section {
+  height:90%;
+  min-height:750px;
+}
 
 .header-overlay {
   /*position: absolute;*/
