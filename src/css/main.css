@@ -300,6 +300,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.carousel-inner>.item {
+  width: 100%;
+
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  min-height: 600px;
+}
+
 .navbar {
   /*background-color: #343a4033 !important;*/
   padding: 0;
