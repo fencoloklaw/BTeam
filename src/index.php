@@ -34,8 +34,8 @@
   <div id="aboutUs" class="d-flex row">
     <div class="col-6 d-flex flex-column p-5" style="background-color: #2c2c2c;">
       <div class="h-100 container d-flex justify-content-center">
-        <div style="margin-top:auto; margin-bottom:auto;">
-          <img src="./img/BTeamLogo.png" style="max-width:100%;">
+        <div style="margin:auto; width:50%;">
+          <img src="./img/BTeamLogoSimplified.png" style="max-width:100%;">
         </div>
       </div>
     </div>
@@ -248,8 +248,8 @@
             </div>
           </div>
           <div class="form-group">
-            <label class="font-weight-bold">Your Message</label>
-            <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
+<!--            <label class="font-weight-bold">Your Message</label>-->
+            <textarea class="form-control" id="message" rows="6" name="message" placeholder="Message" required></textarea>
           </div>
           <div class="d-flex justify-content-center">
             <button type="submit" class="btn btn-dark btn-square mb-3">

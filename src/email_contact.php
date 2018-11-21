@@ -12,7 +12,7 @@ require 'Exception.php';
     $email = htmlspecialchars($_POST['email']);
     $subject = htmlspecialchars($_POST['subject']);
     $message = htmlspecialchars($_POST['message']);
-    $header = 'noreply@fenco.club';
+    $header = 'fencoloklaw@gmail.com';
 
     $full_message = "
     <html>
@@ -40,15 +40,18 @@ require 'Exception.php';
     </html>
     ";
 
-    $mail = new PHPMailer;
+    $mail = new PHPMailer(true);
     $mail->isSMTP();
     try {
-//    $mail->SMTPDebug = 2;
+    $mail->SMTPDebug = 2;
       $mail->SetFrom($header);
       $mail->Host = "a2plcpnl0102.prod.iad2.secureserver.net";    // Must be GoDaddy host name
-      $mail->Port = 587;    // Must use port 587 with TLS
-      $mail->SMTPSecure = 'tls';   // ssl will no longer work on GoDaddy CPanel SMTP
+//      $mail->Host = "mail.fenco.club";    // Must be GoDaddy host name
+      $mail->Port = 465;    // Must use port 587 with TLS
+      $mail->SMTPSecure = 'ssl';   // ssl will no longer work on GoDaddy CPanel SMTP
       $mail->SMTPAuth = true;
+//      $mail->Username = 'info@fenco.club';
+//      $mail->Password = 'Spreadmarketing2017';
       $mail->Username = 'ri87hk4zvi5f';
       $mail->Password = 'K=^uuS,6qM';
       $mail->Subject = $subject;
