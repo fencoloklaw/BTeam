@@ -13,7 +13,7 @@ require_once ("header.php");
       </div>
     </div>
     <div class="row d-flex justify-content-around pt-1 px-lg-5">
-      <ul class="nav">
+      <ul class="nav" style="margin-right:auto; margin-left: auto;">
         <li class="nav-item">
           <a class="nav-link" href="index.php">HOME</a>
         </li>

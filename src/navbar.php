@@ -24,19 +24,16 @@ require_once ("header.php");
           <li class="nav-item" data-target="#navbarSupportedContent">
             <a class="nav-link" href="aboutPage.php">ABOUT US</a>
           </li>
-          <li class="nav-item" data-target="#navbarSupportedContent">
-            <a class="nav-link" href="contact.php">CONTACT</a>
-          </li>
         </ul>
         <div onclick="location.href='index.php'" class="navbar-brand d-none d-lg-block font-theme ml-auto mr-auto fadeIn">
           <img style="width:200px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
         </div>
         <ul class="nav navbar-nav mr-auto">
           <li class="nav-item" data-target="#navbarSupportedContent">
-            <a class="nav-link" href="submissionForm.php">SUBMIT A DEAL</a>
+            <a class="nav-link" href="recentlyFunded.php">RECENTLY FUNDED</a>
           </li>
           <li class="nav-item" data-target="#navbarSupportedContent">
-            <a class="nav-link" href="recentlyFunded.php">RECENTLY FUNDED</a>
+            <a class="nav-link" href="contact.php">CONTACT</a>
           </li>
         </ul>
       </div>

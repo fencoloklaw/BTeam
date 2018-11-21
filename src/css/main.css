@@ -5,6 +5,10 @@
   margin-top:auto;
 }
 
+.row:before {
+  content: " ";
+}
+
 .page-section {
   height:90%;
   min-height:750px;

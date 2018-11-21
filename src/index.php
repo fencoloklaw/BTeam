@@ -31,25 +31,24 @@
       <h1 class="text-light w-100 text-center" style="font-size:5rem;"><span class="font-weight-bold">Trust. Honesty. Reliability</span></h1>
     </div>
   </div>
-  <div id="aboutUs" class="d-flex row page-section">
-    <div class="col-6 d-flex flex-column p-5" style="background-color: #2c2c2c;">
+  <div id="aboutUs" class="d-flex row page-section" style="background-color:#2c2c2c;">
+
       <div class="h-100 container d-flex justify-content-center">
         <div style="margin:auto; width:50%;">
           <img src="./img/BTeamLogoSimplified.png" style="max-width:100%;">
         </div>
       </div>
-    </div>
-    <div class="col-6 container p-5 d-flex flex-column justify-content-center background-theme">
-      <h1 class="font-weight-bold text-center pt-5">OUR PHILOSOPHY</h1>
-      <div class="px-lg-5">
-        <p class="p-3" style="color:#4d4b4b">
-          Acquiring mortgage loans through traditional prime-lenders ( A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, the B team believes that every applicant should have the opportunity to get their mortgage approved. The B team not only helps you connect with lenders but work closely with you to help you build up your credit. The B team will make sure that your financial commitment can match whatever your future goal is, from purchasing a new home to a mortgage to build a home.
-        </p>
-        <div class="d-flex justify-content-center">
-          <a class="btn btn-lg btn-square btn-outline-dark" href="aboutPage.php">ABOUT US</a>
-        </div>
-      </div>
-    </div>
+<!--    <div class="col-6 container p-5 d-flex flex-column justify-content-center background-theme">-->
+<!--      <h1 class="font-weight-bold text-center pt-5">OUR PHILOSOPHY</h1>-->
+<!--      <div class="px-lg-5">-->
+<!--        <p class="p-5" style="color:#4d4b4b">-->
+<!--          Acquiring mortgage loans through traditional prime-lenders ( A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, the B team believes that every applicant should have the opportunity to get their mortgage approved. The B team not only helps you connect with lenders but work closely with you to help you build up your credit. The B team will make sure that your financial commitment can match whatever your future goal is, from purchasing a new home to a mortgage to build a home.-->
+<!--        </p>-->
+<!--        <div class="d-flex justify-content-center">-->
+<!--          <a class="btn btn-lg btn-square btn-outline-dark" href="aboutPage.php">ABOUT US</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
   </div>
   <div id="submissionProcess" class="p-lg-5 py-5">
     <div class="container">
