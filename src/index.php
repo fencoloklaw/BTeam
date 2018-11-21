@@ -51,7 +51,7 @@
       </div>
     </div>
   </div>
-  <div id="submissionProcess" class="p-lg-5 py-5">
+  <div id="submissionProcess" class="p-lg-5 py-5" style="background-image:linear-gradient(white,#fafafa)">
     <div class="container">
       <div id="submissionTitle" class="fadeIn" style="border-bottom: 1px solid">
         <h1 class="text-center font-weight-bold p-3">SUBMISSION PROCESS</h1>
@@ -86,7 +86,7 @@
       </div>
     </div>
   </div>
-  <div id="testimonial" class="d-flex flex-column p-5" style="background-color: #fafafa">
+  <div id="testimonial" class="d-flex flex-column p-5" style="background-image:linear-gradient(#fafafa,white)">
     <h1 class="text-center fadeIn font-theme font-weight-bold">RECENTLY FUNDED</h1>
     <div id="testimonial-row-1" class="row pb-3" style="height:320px;">
       <div class="img_wrapper col-3 px-1 h-100">
@@ -219,47 +219,47 @@
       </div>
     </div>
   </div>
-  <div id="index_contact" class="container py-lg-5 py-3">
-    <div class="row mt-auto mb-auto">
-      <div id="contact_form" class="col d-inline px-5">
-        <div class="text-center">
-          <h1 class="font-theme font-weight-bold px-5">CONTACT</h1>
+  <div id="index_contact" class="py-lg-5 py-3" style="background-image:linear-gradient(white,#dab96b)">
+    <div class="container">
+      <div class="row mt-auto mb-auto">
+        <div id="contact_form" class="col d-inline px-5">
+          <div class="text-center">
+            <h1 class="font-theme font-weight-bold px-5">CONTACT</h1>
+          </div>
+          <form id="ajax-contact" action="email_contact.php" method="post">
+            <label>Name *</label>
+            <div class="form-group row">
+              <div class="col-6">
+                <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" placeholder="First name" required>
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" placeholder="Last name" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-6">
+                <label>Email Address *</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="col-6">
+                <label>Phone Number *</label>
+                <input type="number" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Message *</label>
+              <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-dark btn-square mb-3">
+                <span>SEND</span>
+              </button>
+            </div>
+          </form>
         </div>
-        <form id="ajax-contact" action="email_contact.php" method="post">
-          <label class="font-weight-bold">Your Name</label>
-          <div class="form-group row">
-            <div class="col-6">
-              <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="nameHelp" required>
-              <label style="color:#394540">First</label>
-            </div>
-            <div class="col-6">
-              <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" required>
-              <label style="color:#394540">Last</label>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-6">
-              <label class="font-weight-bold">Your Email Address</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="col-6">
-              <label class="font-weight-bold">Your Phone Number</label>
-              <input type="number" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp" required>
-            </div>
-          </div>
-          <div class="form-group">
-<!--            <label class="font-weight-bold">Your Message</label>-->
-            <textarea class="form-control" id="message" rows="6" name="message" placeholder="Message" required></textarea>
-          </div>
-          <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-dark btn-square mb-3">
-              <span>SEND</span>
-            </button>
-          </div>
-        </form>
       </div>
+      <div id="form-messages"></div>
     </div>
-    <div id="form-messages"></div>
   </div>
   <?php
   require_once ("footer.php")

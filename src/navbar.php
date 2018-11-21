@@ -9,7 +9,6 @@ require_once ("header.php");
         <a class="btn btn-outline-theme" href="submissionForm.php">DEAL SUBMISSION FORM</a>
       </div>
       <div class="row w-100">
-<!--        <div onclick="location.href='index.php'" class="navbar-brand d-block d-lg-none font-theme ml-auto mr-auto fadeIn" style="font-size:4rem; padding-left:calc(5rem + 30px);">TB</div>-->
         <div onclick="location.href='index.php'" class="navbar-brand d-block d-lg-none font-theme ml-auto mr-auto fadeIn">
           <img style="width:200px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
         </div>
@@ -29,7 +28,6 @@ require_once ("header.php");
             <a class="nav-link" href="contact.php">CONTACT</a>
           </li>
         </ul>
-<!--        <div onclick="location.href='index.php'" class="navbar-brand d-none d-lg-block font-theme ml-auto mr-auto fadeIn" style="font-size:4rem;">TB</div>-->
         <div onclick="location.href='index.php'" class="navbar-brand d-none d-lg-block font-theme ml-auto mr-auto fadeIn">
           <img style="width:200px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
         </div>

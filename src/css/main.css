@@ -5,6 +5,7 @@
   margin-top:auto;
 }
 
+
 .header-overlay {
   /*position: absolute;*/
   width: 100%;
@@ -75,7 +76,7 @@
 }
 
 .font-theme {
-  color:  #dab96b !important;
+  color: #dab96b !important;
 }
 
 .font-input-theme {
@@ -228,6 +229,10 @@ body, html{
 .btn:focus, .btn:active, .btn::selection {
   outline:none !important;
   box-shadow:none;
+}
+
+.btn-dark {
+  border-color: #343a40 !important;
 }
 
 .btn-theme {
@@ -584,21 +589,21 @@ textarea {
 }
 
 .form-control {
-  background-color: lightgray;
-  border-color: lightgray;
+  background-color: #f8f9fa;
+  border-color: #e7e7e7;
   color:black;
 }
 
 .form-control:focus {
-  background-color: lightgray;
-  border-color: lightgray;
+  background-color: #f8f9fa;
+  border-color: #e7e7e7;
   outline:0 !important;
   color:black;
 }
 
 .form-control::selection {
-  background-color: lightgray;
-  border-color: lightgray;
+  background-color: #f8f9fa;
+  border-color: #e7e7e7;
   outline:0 !important;
   color:black;
 }
