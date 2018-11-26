@@ -6,13 +6,12 @@
 ?>
 <div id="site-content" style="height:100%;">
   <div id="frontPage" class="h-100">
-    <div id="videoBlock" class="h-100">
-      <video autoplay loop poster muted playsinline class="h-100 w-100" style="object-fit:fill;">
+    <div id="backBlock" class="h-100" style="background-image: url('img/realEstateCity.jpg')">
+      <video autoplay loop muted class="h-100 w-100" style="object-fit:fill;">
         <source src="video/HomePageSmall.mp4" type="video/mp4">
-        <source src="video/HomePageSmall.webm" type="video/webm">
       </video>
     </div>
-    <div id="videoMessage" class="d-flex flex-column justify-content-center h-100">
+    <div id="overlayMessage" class="d-flex flex-column justify-content-center h-100">
           <div class="fadeIn pb-5">
             <h1 class="text-light w-100 text-center font-weight-bold">Submit. Approved. Funded.</h1>
           </div>
@@ -26,29 +25,27 @@
           </div>
     </div>
   </div>
-  <div id="trust" class="header-overlay d-flex flex-column justify-content-center page" style="background-image:url('img/homepagesecondsection-min.jpg'); height:100%;" >
+  <div id="trust" class="header-overlay d-flex flex-column justify-content-center page" style="background-image:url('img/homepagesecondsection-min.jpg'); height:100%;">
     <div class="fadeIn d-flex">
       <h1 class="text-light w-100 text-center" style="font-size:5rem;"><span class="font-weight-bold">Trust. Honesty. Reliability</span></h1>
     </div>
   </div>
-  <div id="aboutUs" class="d-flex row page-section" style="background-color:#2c2c2c;">
-
-      <div class="h-100 container d-flex justify-content-center">
-        <div style="margin:auto; width:50%;">
-          <img src="./img/BTeamLogoSimplified.png" style="max-width:100%;">
+  <div id="aboutUs" class="row page-section" style="background:#2c2c2c;">
+      <div class="w-100 h-100 d-flex justify-content-center" style="background:linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url('img/BTeamLogoSimplified.png') center no-repeat; background-size: 50% 50%;">
+        <div class="container" style="margin:auto;">
+              <div class="container d-flex flex-column justify-content-center">
+                <h1 class="font-weight-bold text-center pt-5">OUR PHILOSOPHY</h1>
+                <div class="px-lg-5">
+                  <p class="p-5">
+                    Acquiring mortgage loans through traditional prime-lenders (A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, the B team believes that every applicant should have the opportunity to get their mortgage approved. The B team not only helps you connect with lenders but work closely with you to help you build up your credit. The B team will make sure that your financial commitment can match whatever your future goal is, from purchasing a new home to a mortgage to build a home.
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <a class="btn btn-lg btn-square btn-theme" href="aboutPage.php">ABOUT US</a>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
-<!--    <div class="col-6 container p-5 d-flex flex-column justify-content-center background-theme">-->
-<!--      <h1 class="font-weight-bold text-center pt-5">OUR PHILOSOPHY</h1>-->
-<!--      <div class="px-lg-5">-->
-<!--        <p class="p-5" style="color:#4d4b4b">-->
-<!--          Acquiring mortgage loans through traditional prime-lenders ( A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, the B team believes that every applicant should have the opportunity to get their mortgage approved. The B team not only helps you connect with lenders but work closely with you to help you build up your credit. The B team will make sure that your financial commitment can match whatever your future goal is, from purchasing a new home to a mortgage to build a home.-->
-<!--        </p>-->
-<!--        <div class="d-flex justify-content-center">-->
-<!--          <a class="btn btn-lg btn-square btn-outline-dark" href="aboutPage.php">ABOUT US</a>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
   </div>
   <div id="submissionProcess" class="p-lg-5 py-5">
     <div class="container">
@@ -57,14 +54,14 @@
       </div>
       <div id="images" class="row p-lg-5 py-5">
         <div class="col-4">
-          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100">
-            <h1 class="font-weight-bold display-1 fadeIn-15">01</h1>
+          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100" style="padding:50px">
+            <h1 class="font-weight-bold fadeIn-15" style="font-size:10rem;">01</h1>
             <span>SUBMIT YOUR DEAL</span>
           </div>
         </div>
         <div class="col-4">
-          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light theme-stripe-bg w-100 h-100">
-            <h1 class="font-weight-bold display-1 fadeIn-15">02</h1>
+          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light theme-stripe-bg w-100 h-100" style="padding:50px">
+            <h1 class="font-weight-bold display-1 fadeIn-15" style="font-size:10rem;">02</h1>
             <div>
               <span>LENDER RESPONSE</span>
             </div>
@@ -74,8 +71,8 @@
           </div>
         </div>
         <div class="col-4">
-          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100">
-            <h1 class="font-weight-bold display-1 fadeIn-15">03</h1>
+          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100" style="padding:50px">
+            <h1 class="font-weight-bold display-1 fadeIn-15" style="font-size:10rem;">03</h1>
             <span>GET DEAL APPROVED</span>
           </div>
         </div>

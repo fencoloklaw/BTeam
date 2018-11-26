@@ -3,7 +3,7 @@
   require_once ("navbar.php");
 ?>
 <div style="height:100%">
-  <div class="container-fluid d-flex flex-column justify-content-end imageContainer" style="background-image:url('img/contact.jpg')">
+  <div class="container-fluid d-flex flex-column justify-content-end imageContainer" style="background-image:url('img/contact.jpg'); filter: brightness(125%);">
   </div>
   <div>
     <div class="container p-5">

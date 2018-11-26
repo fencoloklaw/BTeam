@@ -32,6 +32,7 @@ require_once ("header.php");
       </ul>
     </div>
     <div class="text-light text-center pb-3">
+      <span>Powered by 2018 by Royalty Finance.</span>
       <span>&copy;2018 by Spread Marketing Inc.</span>
     </div>
   </div>

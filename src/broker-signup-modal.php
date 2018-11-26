@@ -19,21 +19,11 @@ require_once("header.php");
             <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="nameHelp" placeholder="Last Name*" required>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" id="firmNAme" name="firmName" aria-describedby="nameHelp" placeholder="Firm Name*" required>
-          </div>
-          <div class="form-group">
             <input type="number" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp" placeholder="Phone Number*" required>
           </div>
           <div class="form-group">
             <input type="email" class="form-control" id="email" name="email" placeholder="Email Address*" required>
           </div>
-          <!--          <div class="form-group">-->
-          <!--            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*" required>-->
-          <!--          </div>-->
-          <!--          <div class="form-group">-->
-          <!--            <textarea class="form-control" id="message" rows="5" name="message" placeholder="Message Entry*" required></textarea>-->
-          <!--          </div>-->
-<!--          <button type="submit" value="Submit" class="btn btn-square btn-theme">Submit Form</button>-->
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

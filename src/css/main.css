@@ -46,13 +46,11 @@
 }
 
 .modal-content {
-  height: 75%;
   border-radius: 0;
   position:relative;
 }
 
 .modal-footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -632,8 +630,8 @@ textarea {
 .form-control:-ms-input-placeholder { color: black; } /* Microsoft Edge */
 
 #frontPage { width:100%; position: relative; }
-#videoBlock { width: 100%; display: flex; justify-content:center; align-items: center; z-index: -200; background-size: cover; overflow: hidden;}
-#videoMessage {width: 100%; position: absolute; top: 0; left: 0;}
+#backBlock { width: 100%; display: flex; justify-content:center; align-items: center; z-index: -200; background-size: cover; overflow: hidden;}
+#overlayMessage {width: 100%; position: absolute; top:0; left: 0;}
 
 
 .row:before {

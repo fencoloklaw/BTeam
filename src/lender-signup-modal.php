@@ -24,6 +24,10 @@ require_once("header.php");
             <div class="form-group">
               <input type="email" class="form-control" id="email" name="email" placeholder="Email Address*" required>
             </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea class="form-control" id="message" rows="6" name="message"></textarea>
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
