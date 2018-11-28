@@ -4,7 +4,8 @@ require_once("header.php");
 <div class="modal fade" id="brokerSignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <form id="" action="" method="post">
+      <div id="form-messages"></div>
+      <form id="ajax-contact" action="broker-form.php" method="post">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">Broker Sign Up</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">

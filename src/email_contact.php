@@ -5,22 +5,22 @@ require 'PHPMailer.php';
 require 'SMTP.php';
 require 'Exception.php';
 
-  if($_POST){
+  if($_POST) {
     $firstName = htmlspecialchars($_POST['firstName']);
     $lastName = htmlspecialchars($_POST['lastName']);
     $phone = htmlspecialchars($_POST['phone']);
     $email = htmlspecialchars($_POST['email']);
     $subject = htmlspecialchars($_POST['subject']);
+    $subject = "BTeam Contact Form";
     $message = htmlspecialchars($_POST['message']);
-    $header = 'noreply@fenco.club';
-
+    $email_from = 'info@everyjob.ca';
     $full_message = "
     <html>
     <head>
-      <title>BTeam Contact Form</title>
+      <title>$subject</title>
     </head>
     <body>
-    <p>BTeam Contact Form</p>
+    <p>$subject</p>
     <table>
     <tr>
     <th>First Name</th>
@@ -40,56 +40,35 @@ require 'Exception.php';
     </html>
     ";
 
-    $mail = new PHPMailer(); // create a new object
-    $mail->IsSMTP(); // enable SMTP
-    $mail->SMTPDebug = 3; // debugging: 1 = errors and messages, 2 = messages only
-//    $mail->SMTPAuth = true; // authentication enabled
-//    $mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for Gmail
-    $mail->Host = "ri87hk4zvi5f@a2plcpnl0102.prod.iad2.secureserver.net";
-    $mail->Username = 'ri87hk4zvi5f';
-    $mail->Password = 'K=^uuS,6qM';
-    $mail->Port = 25; // or 587
-    $mail->SetFrom($header);
-//    $mail->IsHTML(true);
-    $mail->Subject = $subject;
-    $mail->Body = $message;
-    $mail->AddAddress("fencoloklaw@gmail.com");
-
-    if(!$mail->send()) {
-      echo "Mailer Error: " . $mail->ErrorInfo;
-    } else {
-      echo "Message has been sentx";
+    $mail = new PHPMailer(true);
+    $mail->isSMTP();
+    try {
+      $mail->SMTPDebug = 0;
+      $mail->Host = "p3plcpnl0944.prod.phx3.secureserver.net";    // Must be GoDaddy host name
+      $mail->Port = 465;    // Must use port 587 with TLS
+      $mail->SMTPSecure = 'ssl';   // ssl will no longer work on GoDaddy CPanel SMTP
+      $mail->SMTPAuth = true;
+      $mail->SetFrom("info@everyjob.ca", "Noreply Spreadmarketing");
+      $mail->AddReplyTo("info@everyjob.ca", "Noreply Spreadmarketing");
+      $mail->Username = 'info@everyjob.ca';
+      $mail->Password = 'Spreadmarketing2017!';
+      $mail->Subject = $subject;
+      $mail->Body = $full_message;
+      $mail->IsHTML(true);
+      $mail->AddAddress("fencoloklaw@gmail.com", "alias2");
+      $mail->SMTPAutoTLS = true;
+      $mail->send();
+      echo 'Message has been sent';
     }
-
-//    $mail = new PHPMailer(true);
-//    $mail->isSMTP();
-//    try {
-//    $mail->SMTPDebug = 3;
-//      $mail->Host = "a2plcpnl0102.prod.iad2.secureserver.net";    // Must be GoDaddy host name
-//      $mail->Port = 587;    // Must use port 587 with TLS
-//      $mail->SMTPSecure = 'tls';   // ssl will no longer work on GoDaddy CPanel SMTP
-//      $mail->SMTPAuth = true;
-//      $mail->SetFrom("fencoloklaw@gmail.com", "alias");
-//      $mail->AddReplyTo("fencoloklaw@gmail.com", "alias");
-//      $mail->Username = 'ri87hk4zvi5f';
-//      $mail->Password = 'K=^uuS,6qM';
-//      $mail->Subject = $subject;
-//      $mail->Body = $full_message;
-//      $mail->IsHTML(true);
-//      $mail->AddAddress("fencoloklaw@gmail.com", "alias2");
-////      $mail->SMTPAutoTLS = true;
-//      $mail->send();
-//      echo 'Message has been sent';
-//    }
-//    catch (Exception $e) {
-//      http_response_code(500);
-//      echo 'Message could not be sent.';
-//      echo $e->errorMessage();
-//    }
-//    catch (\Exception $e){
-//      http_response_code(500);
-//      echo 'Message could not be sent.';
-//      echo $e->getMessage();
-//    }
+    catch (Exception $e) {
+      http_response_code(500);
+      echo 'Message could not be sent.';
+      echo $e->errorMessage();
+    }
+    catch (\Exception $e){
+      http_response_code(500);
+      echo 'Message could not be sent.';
+      echo $e->getMessage();
+    }
   }
 ?>

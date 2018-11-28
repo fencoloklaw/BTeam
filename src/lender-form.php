@@ -9,10 +9,7 @@ if($_POST) {
   $lastName = htmlspecialchars($_POST['lastName']);
   $phone = htmlspecialchars($_POST['phone']);
   $email = htmlspecialchars($_POST['email']);
-  $locationOfProperty = htmlspecialchars($_POST['locationOfProperty']);
-  $propertyValue = htmlspecialchars($_POST['propertyValue']);
-  $mortgageRequested = htmlspecialchars($_POST['mortgageRequested']);
-  $subject = "BTeam Submission Form";
+  $subject = "BTeam Lender Form";
   $message = htmlspecialchars($_POST['message']);
   $email_from = 'info@everyjob.ca';
   $full_message = "
@@ -34,18 +31,6 @@ if($_POST) {
     <td>$lastName</td>
     <td>$phone</td>
     <td>$email</td>
-    </tr>
-    </table>
-     <table>
-    <tr>
-    <th>Location of Property</th>
-    <th>Property Value</th>
-    <th>Mortgage Requested</th>
-    </tr>
-    <tr>
-    <td>$locationOfProperty</td>
-    <td>$propertyValue</td>
-    <td>$mortgageRequested</td>
     </tr>
     </table>
     <p>$message</p>

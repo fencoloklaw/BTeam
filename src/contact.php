@@ -12,6 +12,7 @@
         <div class="text-center">
           <h1 class="font-theme font-weight-bold px-5">CONTACT</h1>
         </div>
+          <div id="form-messages"></div>
           <form id="ajax-contact" action="email_contact.php" method="post">
             <div class="form-group row">
               <div class="col-6">
@@ -32,8 +33,8 @@
               <input type="number" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp" required>
             </div>
             <div class="form-group">
-              <label>Message *</label>
-              <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
+              <label>Message</label>
+              <textarea class="form-control" id="message" rows="6" name="message"></textarea>
             </div>
             <div class="d-flex justify-content-center">
               <button type="submit" class="btn btn-dark btn-square mb-3" style="width:400px">
@@ -43,7 +44,6 @@
           </form>
         </div>
       </div>
-      <div id="form-messages"></div>
     </div>
   </div>
   <?php

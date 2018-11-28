@@ -23,7 +23,8 @@ require_once ("navbar.php")
           Thank you!
         </h4>
       </div>
-      <form id="ajax-contact" action="email_contact.php" method="post">
+      <div id="form-messages"></div>
+      <form id="ajax-contact" action="submission_form.php" method="post">
         <div class="form-group row">
           <div class="col-6">
             <label>First Name *</label>
@@ -55,7 +56,7 @@ require_once ("navbar.php")
           <input type="number" class="form-control" id="mortgageRequested" name="mortgageRequested">
         </div>
         <div class="form-group">
-          <label>Message *</label>
+          <label>Message</label>
           <textarea class="form-control" id="message" rows="6" name="message"></textarea>
         </div>
         <div class="d-flex justify-content-center">
@@ -64,7 +65,6 @@ require_once ("navbar.php")
           </button>
         </div>
       </form>
-      <div id="form-messages"></div>
     </div>
   </div>
   <?php

@@ -36,6 +36,9 @@ $(function() {
 			$('#phone').val('');
 			$('#subject').val('');
       $('#message').val('');
+      $('#locationOfProperty').val('');
+      $('#propertyValue').val('');
+      $('#mortgageRequested').val('');
 		})
 
 		.fail(function(data) {
