@@ -21,6 +21,7 @@
 <script src="js/main.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/app.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
 
 </body>
 </html>

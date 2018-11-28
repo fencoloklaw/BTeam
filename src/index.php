@@ -9,6 +9,7 @@
     <div id="backBlock" class="h-100" style="background-image: url('img/realEstateCity.jpg')">
       <video autoplay loop muted class="h-100 w-100" style="object-fit:fill;">
         <source src="video/HomePageSmall.mp4" type="video/mp4">
+        <source src="video/HomePageSmall.webm" type="video/webm">
       </video>
     </div>
     <div id="overlayMessage" class="d-flex flex-column justify-content-center h-100">
@@ -26,7 +27,7 @@
     </div>
   </div>
   <div id="trust" class="header-overlay d-flex flex-column justify-content-center page" style="background-image:url('img/homepagesecondsection-min.jpg'); height:100%;">
-    <div class="fadeIn d-flex">
+    <div class="d-flex">
       <h1 class="text-light w-100 text-center" style="font-size:5rem;"><span class="font-weight-bold">Trust. Honesty. Reliability</span></h1>
     </div>
   </div>
@@ -48,20 +49,22 @@
       </div>
   </div>
   <div id="submissionProcess" class="p-lg-5 py-5">
-    <div class="container">
-      <div id="submissionTitle" class="fadeIn" style="border-bottom: 1px solid">
+    <div id="submissionNum" class="container">
+      <div style="border-bottom: 1px solid">
         <h1 class="text-center font-weight-bold p-3">SUBMISSION PROCESS</h1>
       </div>
       <div id="images" class="row p-lg-5 py-5">
         <div class="col-4">
-          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100" style="padding:50px">
-            <h1 class="font-weight-bold fadeIn-15" style="font-size:10rem;">01</h1>
-            <span>SUBMIT YOUR DEAL</span>
+          <div id="submissionNum" onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100 revealOnScroll" data-animation="fadeInUp" style="padding:50px">
+            <h1 class="font-weight-bold" style="font-size:10rem;">01</h1>
+            <div>
+              <span>SUBMIT YOUR DEAL</span>
+            </div>
           </div>
         </div>
         <div class="col-4">
-          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light theme-stripe-bg w-100 h-100" style="padding:50px">
-            <h1 class="font-weight-bold display-1 fadeIn-15" style="font-size:10rem;">02</h1>
+          <div id="submissionNum" onclick="location.href='submissionForm.php'" class="btn text-center text-light theme-stripe-bg w-100 h-100 revealOnScroll" data-animation="fadeInUp" style="padding:50px">
+            <h1 class="font-weight-bold" style="font-size:10rem;">02</h1>
             <div>
               <span>LENDER RESPONSE</span>
             </div>
@@ -71,9 +74,11 @@
           </div>
         </div>
         <div class="col-4">
-          <div onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100" style="padding:50px">
-            <h1 class="font-weight-bold display-1 fadeIn-15" style="font-size:10rem;">03</h1>
-            <span>GET DEAL APPROVED</span>
+          <div id="submissionNum" onclick="location.href='submissionForm.php'" class="btn text-center text-light black-stripe-bg w-100 h-100 revealOnScroll" data-animation="fadeInUp" style="padding:50px">
+            <h1 class="font-weight-bold" style="font-size:10rem;">03</h1>
+            <div>
+              <span>GET DEAL APPROVED</span>
+            </div>
           </div>
         </div>
       </div>
@@ -82,11 +87,11 @@
       </div>
     </div>
   </div>
-  <div id="testimonial" class="d-flex flex-column p-5 page-section" style="background-color:#fafafa">
-    <h1 class="text-center fadeIn font-theme font-weight-bold">RECENTLY FUNDED</h1>
+  <div id="testimonial" class="d-flex flex-column p-5 revealOnScroll" data-animation="fadeInUp" style="background-color:#fafafa">
+    <h1 class="text-center font-theme font-weight-bold">RECENTLY FUNDED</h1>
     <div id="testimonial-row-1" class="row pb-3" style="height:320px;">
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-container" style="background-image: url('img/testimonial_1-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_1-min.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
@@ -104,7 +109,7 @@
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-container" style="background-image: url('img/testimonial_2-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_2-min.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
@@ -122,7 +127,7 @@
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-container" style="background-image: url('img/testimonial_3-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_3-min.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
@@ -140,7 +145,7 @@
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-container" style="background-image: url('img/testimonial_4-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_4-min.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
@@ -160,7 +165,7 @@
     </div>
     <div id="testimonial-row-2" class="row" style="height:320px;">
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-container" style="background-image: url('img/testimonial_5-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_5-min.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
@@ -178,7 +183,7 @@
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-container" style="background-image: url('img/testimonial_6-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_6-min.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
@@ -196,7 +201,7 @@
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-container" style="background-image: url('img/testimonial_7-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_7-min.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>

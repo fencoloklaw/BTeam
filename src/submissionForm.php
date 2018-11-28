@@ -7,6 +7,7 @@ require_once ("navbar.php")
     <div id="backBlock" class="h-100" style="background-image: url('img/patio.jpg');">
       <video autoplay loop preload muted class="h-100 w-100" style="object-fit:fill;">
         <source src="video/Submission.mp4" type="video/mp4">
+        <source src="video/Submission.webm" type="video/webm">
       </video>
     </div>
     <div id="overlayMessage" class="d-flex flex-column justify-content-center h-100">

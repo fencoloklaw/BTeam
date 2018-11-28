@@ -10,16 +10,11 @@ require_once ("navbar.php")
         <h1 class="font-theme font-weight-bold px-5 pt-5">RECENTLY FUNDED</h1>
       </div>
   </div>
-  <div id="carouselExampleIndicators" class="carousel slide ml-auto mr-auto w-50 py-5" data-ride="carousel">
-<!--    <ol class="carousel-indicators">-->
-<!--      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
-<!--      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
-<!--      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
-<!--    </ol>-->
-    <div class="carousel-inner" style="height:100%; max-height:600px; width:100%; max-width:950px;">
-      <div class="img_wrapper carousel-item active">
-        <img class="d-block image-container" style="height:100%; max-height:600px; width:100%; max-width:950px;" src="img/testimonial_1-min.jpg" alt="First slide">
-        <div class="img_description p-lg-5 p-3 text-center img_description_text" style="height:100%; max-height:600px; width:100%; max-width:950px;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner carousel-class">
+      <div class="img_wrapper carousel-item carousel-class active">
+        <img class="d-block image-container carousel-class" src="img/testimonial_1-min.jpg" alt="First slide">
+        <div class="img_description p-lg-5 p-3 text-center img_description_text carousel-class">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
             Existing 1st Mortage: $528.627.12<br/>
@@ -35,9 +30,9 @@ require_once ("navbar.php")
           </p>
         </div>
       </div>
-      <div class="img_wrapper carousel-item">
-        <img class="d-block image-container" style="height:100%; max-height:600px; width:100%; max-width:950px;" src="img/testimonial_2-min.jpg" alt="Second slide">
-        <div class="img_description p-lg-5 p-3 text-center img_description_text" style="height:100%; max-height:600px; width:100%; max-width:950px;">
+      <div class="img_wrapper carousel-item carousel-class">
+        <img class="d-block image-container carousel-class" src="img/testimonial_2-min.jpg" alt="Second slide">
+        <div class="img_description p-lg-5 p-3 text-center img_description_text carousel-class">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
             Existing 1st Mortage: $528.627.12<br/>
@@ -53,9 +48,9 @@ require_once ("navbar.php")
           </p>
         </div>
       </div>
-      <div class="img_wrapper carousel-item">
-        <img class="d-block image-container" style="height:100%; max-height:600px; width:100%; max-width:950px;" src="img/testimonial_5-min.jpg" alt="Fifth slide">
-        <div class="img_description p-lg-5 p-3 text-center img_description_text" style="height:100%; max-height:600px; width:100%; max-width:950px;">
+      <div class="img_wrapper carousel-item carousel-class">
+        <img class="d-block image-container carousel-class" src="img/testimonial_5-min.jpg" alt="Fifth slide">
+        <div class="img_description p-lg-5 p-3 text-center img_description_text carousel-class">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
             Existing 1st Mortage: $528.627.12<br/>
@@ -71,9 +66,9 @@ require_once ("navbar.php")
           </p>
         </div>
       </div>
-      <div class="img_wrapper carousel-item">
-        <img class="d-block image-container" style="height:100%; max-height:600px; width:100%; max-width:950px;" src="img/testimonial_6-min.jpg" alt="Sixth slide">
-        <div class="img_description p-lg-5 p-3 text-center img_description_text" style="height:100%; max-height:600px; width:100%; max-width:950px;">
+      <div class="img_wrapper carousel-item carousel-class">
+        <img class="d-block image-container carousel-class" src="img/testimonial_6-min.jpg" alt="Sixth slide">
+        <div class="img_description p-lg-5 p-3 text-center img_description_text carousel-class">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
             Existing 1st Mortage: $528.627.12<br/>
@@ -89,9 +84,9 @@ require_once ("navbar.php")
           </p>
         </div>
       </div>
-      <div class="img_wrapper carousel-item">
-        <img class="d-block image-container" style="height:100%; max-height:600px; width:100%; max-width:950px;" src="img/testimonial_7-min.jpg" alt="Seventh slide">
-        <div class="img_description p-lg-5 p-3 text-center img_description_text" style="height:100%; max-height:600px; width:100%; max-width:950px;">
+      <div class="img_wrapper carousel-item carousel-class">
+        <img class="d-block image-container carousel-class" src="img/testimonial_7-min.jpg" alt="Seventh slide">
+        <div class="img_description p-lg-5 p-3 text-center img_description_text carousel-class">
           <h2 class="font-weight-bold">CALGARY, AB</h2>
           <p>Appraisal Value: $18,500,000.00<br/>
             Existing 1st Mortage: $528.627.12<br/>
@@ -108,11 +103,11 @@ require_once ("navbar.php")
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
