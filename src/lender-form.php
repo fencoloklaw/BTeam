@@ -5,6 +5,7 @@ require 'SMTP.php';
 require 'Exception.php';
 
 if($_POST) {
+  $message = "";
   $firstName = htmlspecialchars($_POST['firstName']);
   $lastName = htmlspecialchars($_POST['lastName']);
   $phone = htmlspecialchars($_POST['phone']);

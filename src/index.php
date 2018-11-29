@@ -249,8 +249,8 @@
               </div>
             </div>
             <div class="form-group">
-              <label>Message *</label>
-              <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
+              <label>Message</label>
+              <textarea class="form-control" id="message" rows="6" name="message"></textarea>
             </div>
             <div class="d-flex justify-content-center">
               <button type="submit" class="btn btn-dark btn-square mb-3">
