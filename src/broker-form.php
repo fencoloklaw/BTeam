@@ -11,6 +11,7 @@ if($_POST) {
   $email = htmlspecialchars($_POST['email']);
   $subject = "BTeam Broker Form";
   $email_from = 'info@everyjob.ca';
+  $message = htmlspecialchars($_POST['message']);
   $full_message = "
     <html>
     <head>
@@ -32,6 +33,7 @@ if($_POST) {
     <td>$email</td>
     </tr>
     </table>
+    <p>$message</p>
     </body>
     </html>
     ";

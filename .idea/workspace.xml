@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c098cda-8682-4c45-a9c1-4aff5ab4913c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aboutPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/aboutPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/agreement-business.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/apartment-architecture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/brown-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/check-form.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/deal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/doge.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/down-arrow-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/down-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/patio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/profile-img.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/realEstate1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/realEstateCity.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/realEstateCity2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/speech-bubble.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/stairs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/testimonial_1-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/testimonial_2-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/testimonial_3-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/testimonial_4-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/testimonial_5-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/testimonial_6-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/testimonial_7-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recentlyFunded.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/recentlyFunded.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/broker-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/broker-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/broker-signup-modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/broker-signup-modal.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,47 +16,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.44254658">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="170" column="10" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="10" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
-                    <marker date="1548466168490" expanded="true" signature="11320:11661" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/aboutPage.php">
+            <entry file="file://$PROJECT_DIR$/src/lender-form.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+                <state relative-caret-position="436">
+                  <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/submissionForm.php">
+            <entry file="file://$PROJECT_DIR$/src/lender-signup-modal.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+                <state relative-caret-position="442">
+                  <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -102,31 +48,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/recentlyFunded.php">
+            <entry file="file://$PROJECT_DIR$/src/broker-form.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="214">
-                  <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+                <state relative-caret-position="334">
+                  <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/css/main.css">
+            <entry file="file://$PROJECT_DIR$/src/broker-signup-modal.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/contact.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="354">
-                  <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-                  <folding>
-                    <element signature="n#style#0;n#button#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="351">
+                  <caret line="29" column="91" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="91" />
                 </state>
               </provider>
             </entry>
@@ -146,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aboutUs</find>
       <find>navbar</find>
       <find>video</find>
       <find>frontPage</find>
@@ -175,6 +108,7 @@
       <find>h1</find>
       <find>theme</find>
       <find>font-theme</find>
+      <find>surrey</find>
       <find>our phil</find>
     </findStrings>
     <replaceStrings>
@@ -208,8 +142,6 @@
         <option value="$PROJECT_DIR$/src/footer.php" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/submissionForm.php" />
-        <option value="$PROJECT_DIR$/src/broker-signup-modal.php" />
-        <option value="$PROJECT_DIR$/src/broker-form.php" />
         <option value="$PROJECT_DIR$/src/submission_form.php" />
         <option value="$PROJECT_DIR$/src/email_contact.php" />
         <option value="$PROJECT_DIR$/src/lender-form.php" />
@@ -219,6 +151,8 @@
         <option value="$PROJECT_DIR$/src/css/main.css" />
         <option value="$PROJECT_DIR$/src/recentlyFunded.php" />
         <option value="$PROJECT_DIR$/src/contact.php" />
+        <option value="$PROJECT_DIR$/src/broker-signup-modal.php" />
+        <option value="$PROJECT_DIR$/src/broker-form.php" />
       </list>
     </option>
   </component>
@@ -263,19 +197,6 @@
               <item name="BTeam" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BTeam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BTeam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BTeam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BTeam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="recentlyFunded" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BTeam" type="b2602c69:ProjectViewProjectNode" />
@@ -442,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388852000" />
+    <option name="totallyTimeSpent" value="389108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,10 +393,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31385282" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31385282" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -679,52 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lender-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/broker-signup-modal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/broker-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="67" column="3" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lender-signup-modal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/submissionForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -770,17 +649,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aboutPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/recentlyFunded.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aboutPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/submissionForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/broker-signup-modal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="29" column="91" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lender-signup-modal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lender-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/broker-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
         </state>
       </provider>
     </entry>
