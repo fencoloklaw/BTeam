@@ -10,7 +10,7 @@
       <div class="row mt-auto mb-auto">
         <div id="contact_form" class="col d-inline px-5">
         <div class="text-center">
-          <h1 class="font-theme font-weight-bold px-5">CONTACT</h1>
+          <h1 class="font-theme font-weight-bold px-5">CONTACT US</h1>
         </div>
           <div id="form-messages"></div>
           <form id="ajax-contact" action="email_contact.php" method="post">
@@ -43,6 +43,11 @@
             </div>
           </form>
         </div>
+      </div>
+      <div id="form-messages"></div>
+      <div class="text-center">
+        <p>Thank you for contacting us. If the matter is urgent please contact us directly at:</p>
+        <p>Canada - <a href="tel:+7788599790">778-859-9790</a></p>
       </div>
     </div>
   </div>

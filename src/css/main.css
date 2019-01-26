@@ -82,15 +82,15 @@
 }
 
 .font-theme {
-  color: #dab96b !important;
+  color: #b07655 !important;
 }
 
 .font-input-theme {
-  color: #dab96b;
+  color: #b07655;
 }
 
 .background-theme {
-  background-color: #dab96b !important;
+  background-color: #b07655 !important;
 }
 
 @keyframes fadeIn {
@@ -226,19 +226,19 @@ body, html{
 }
 
 .theme-stripe-bg {
-  background-color: #dab96b;
+  background-color: #b07655;
 }
 
 .btn-outline-theme {
-  color: #dab96b;
+  color: #b07655;
   background-color: transparent;
   background-image: none;
-  border-color: #dab96b;
+  border-color: #b07655;
 }
 
 .btn-outline-theme:hover{
   color:white;
-  background-color: #dab96b;
+  background-color: #b07655;
 }
 
 .btn:focus, .btn:active, .btn::selection {
@@ -252,16 +252,16 @@ body, html{
 
 .btn-theme {
   color: white;
-  background-color: #dab96b;
+  background-color: #b07655;
   background-image: none;
   border-color: transparent;
 }
 
 .btn-theme:hover {
-  color: #dab96b;
+  color: #b07655;
   background-color: white;
   background-image: none;
-  border-color: #dab96b;
+  border-color: #b07655;
 }
 
 .success {
@@ -300,6 +300,14 @@ p {
 
 .h1, h1 {
   font-size: 3rem;
+}
+
+h1, h2 ,h3 ,h4 ,h5, h6 {
+  font-family: 'Didot 16 A', 'Didot 16 B', "Times New Roman", Georgia, serif;
+}
+
+p {
+  font-family: "ff-din-web",helvetica,arial,sans-serif;
 }
 /*
  * What follows is the result of much research on cross-browser styling.

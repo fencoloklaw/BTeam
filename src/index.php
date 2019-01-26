@@ -37,8 +37,8 @@
               <div class="container d-flex flex-column justify-content-center">
                 <h1 class="font-weight-bold text-center pt-5">OUR PHILOSOPHY</h1>
                 <div class="px-lg-5">
-                  <p class="p-5">
-                    Acquiring mortgage loans through traditional prime-lenders (A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, the B team believes that every applicant should have the opportunity to get their mortgage approved. The B team not only helps you connect with lenders but work closely with you to help you build up your credit. The B team will make sure that your financial commitment can match whatever your future goal is, from purchasing a new home to a mortgage to build a home.
+                  <p class="p-5 text-uppercase">
+                    Acquiring mortgage loans through traditional prime-lenders (A lender) sometimes is complicated and not promising due to the high qualification requirements. With that in mind, B team believes that every applicant should have the opportunity to get their mortgage approved. We understand brokers strive to help applicants with their mortgage approval, however, it can be disappointing when a deal does not go through or, either telling an applicant that your unable to help them with their file. This is  something that clients are afraid of. B Team excels at this specific aspect of the business with their long-term relationship lenders. By sourcing out your file to B Team, you’re still able to earn an extra profit as well as provide extensive help for your client while focusing on your next deal. Sourcing out to B Team will allow you to add additional revenue streams to your business from these inefficient tasks.
                   </p>
                   <div class="d-flex justify-content-center">
                     <a class="btn btn-lg btn-square btn-theme" href="aboutPage.php">ABOUT US</a>
@@ -66,7 +66,7 @@
           <div id="submissionNum" onclick="location.href='submissionForm.php'" class="btn text-center text-light theme-stripe-bg w-100 h-100 revealOnScroll" data-animation="fadeInUp" style="padding:50px">
             <h1 class="font-weight-bold" style="font-size:10rem;">02</h1>
             <div>
-              <span>LENDER RESPONSE</span>
+              <span>BTEAM RESPONSE</span>
             </div>
             <div>
               <span>WITHIN 4 HOURS</span>
@@ -91,133 +91,86 @@
     <h1 class="text-center font-theme font-weight-bold">RECENTLY FUNDED</h1>
     <div id="testimonial-row-1" class="row pb-3" style="height:320px;">
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_1-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/recentlyFunded/SFDSurrey.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
-          <h2 class="font-weight-bold">CALGARY, AB</h2>
-          <p>Appraisal Value: $18,500,000.00<br/>
-            Existing 1st Mortage: $528.627.12<br/>
-            2nd Morgage: $410,000.00<br/>
-            LTV: 50%<br/>
-            Rate/Term: 9.99%, 12 Months<br/>
+          <h2 class="font-weight-bold">Surrey, BC</h2>
+          <p>Property & Location: SFD in Surrey, BC<br/>
+            Loan Type: Second Construction Mortgage<br/>
+            Appraised Value: As is: $1,000,000 Future value: $1,500,000<br/>
+            Existing 1st Mortgage: $600,000<br/>
+            New 2nd Mortgage: $300,000<br/>
+            LTV: 60%<br/>
+            Rate/Term: 9.95%, 1 Year Fixed (Open)<br/>
             Amortization: Interest Only<br/>
-            Compensation: $7,175.00 (175 BPS) split with referring broker<br/>
-            Lender: AP Capital<br/>
-            Income: BFS & Part Time Employee (NIQ)<br/>
-            Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vehicle loan.
+            Compensation: Total $11,800 split with Broker<br/>
+            Lender: Private Investor<br/>
+            Income: Not required<br/>
+            Credit: 600<br/>
+            Deal Notes:  2nd construction mortgage to help complete the house
           </p>
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_2-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/recentlyFunded/condoLangley.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
-          <h2 class="font-weight-bold">CALGARY, AB</h2>
-          <p>Appraisal Value: $18,500,000.00<br/>
-            Existing 1st Mortage: $528.627.12<br/>
-            2nd Morgage: $410,000.00<br/>
-            LTV: 50%<br/>
-            Rate/Term: 9.99%, 12 Months<br/>
+          <h2 class="font-weight-bold">Langley, BC</h2>
+          <p>Property & Location: Condo in Langley, BC <br/>
+            Loan Type: Second Mortgage<br/>
+            Appraised Value: $350,000<br/>
+            Existing 1st Mortgage: $150,000<br/>
+            Existing 2nd Mortgage: $50,000<br/>
+            Existing 3rd Mortgage: $30,000<br/>
+            New 2nd Mortgage: $140,000<br/>
+            LTV: 82.8%<br/>
+            Rate/Term: 14.95%, 1 Year Fixed (Two months interest penalty)<br/>
             Amortization: Interest Only<br/>
-            Compensation: $7,175.00 (175 BPS) split with referring broker<br/>
-            Lender: AP Capital<br/>
-            Income: BFS & Part Time Employee (NIQ)<br/>
-            Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vechile loan.
+            Compensation: Total $11,800 split with Broker<br/>
+            Lender: Private Investor<br/>
+            Credit: 550<br/>
+            Deal Notes:  Clients with messy credit, Condo, Payout of first and second mortgage, Committed in 24 hours, funded in 3 days
           </p>
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_3-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/recentlyFunded/multiplexKitimatBC.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
-          <h2 class="font-weight-bold">CALGARY, AB</h2>
-          <p>Appraisal Value: $18,500,000.00<br/>
-            Existing 1st Mortage: $528.627.12<br/>
-            2nd Morgage: $410,000.00<br/>
-            LTV: 50%<br/>
-            Rate/Term: 9.99%, 12 Months<br/>
+          <h2 class="font-weight-bold">Kitimat, BC</h2>
+          <p>Property & Location: 9 unit Multiplex in Kitimat, BC<br/>
+            Loan Type: First Mortgage<br/>
+            Appraised Value: $800,000<br/>
+            New 1st Mortgage: $300,000<br/>
+            LTV: 31%<br/>
+            Rate/Term: 7.95%, 1 Year Fixed (Open after 6 months)<br/>
             Amortization: Interest Only<br/>
-            Compensation: $7,175.00 (175 BPS) split with referring broker<br/>
-            Lender: AP Capital<br/>
-            Income: BFS & Part Time Employee (NIQ)<br/>
-            Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vechile loan.
+            Compensation: Total $14,000 split with Broker<br/>
+            Lender: Private Investor<br/>
+            Income: Rental from property<br/>
+            Credit: 750<br/>
+            Deal Notes:  Remote Location, Committed and funded in 4 days. Previous offer they received elsewhere was at 12%
           </p>
         </div>
       </div>
       <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_4-min.jpg')"></div>
+        <div class="h-100 image-index-container" style="background-image: url('img/recentlyFunded/commercialOfficeSpaceBC.jpg')"></div>
         <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
-          <h2 class="font-weight-bold">CALGARY, AB</h2>
-          <p>Appraisal Value: $18,500,000.00<br/>
-            Existing 1st Mortage: $528.627.12<br/>
-            2nd Morgage: $410,000.00<br/>
-            LTV: 50%<br/>
-            Rate/Term: 9.99%, 12 Months<br/>
+          <h2 class="font-weight-bold">Vancouver, BC</h2>
+          <p>Property & Location: Commercial Office Space, BC<br/>
+            Loan Type: Second Mortgage<br/>
+            Appraised Value: $600,000<br/>
+            Second Mortgage: $197,000<br/>
+            LTV: 72%<br/>
+            Rate/Term: 15%, 1 Year Fixed (Closed)<br/>
             Amortization: Interest Only<br/>
-            Compensation: $7,175.00 (175 BPS) split with referring broker<br/>
-            Lender: AP Capital<br/>
-            Income: BFS & Part Time Employee (NIQ)<br/>
-            Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vechile loan.
+            Compensation: Total $7,800 split with Broker<br/>
+            Lender: Private Investor<br/>
+            Income: Rental<br/>
+            Credit: 750
           </p>
         </div>
       </div>
     </div>
-    <div id="testimonial-row-2" class="row" style="height:320px;">
-      <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_5-min.jpg')"></div>
-        <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
-          <h2 class="font-weight-bold">CALGARY, AB</h2>
-          <p>Appraisal Value: $18,500,000.00<br/>
-            Existing 1st Mortage: $528.627.12<br/>
-            2nd Morgage: $410,000.00<br/>
-            LTV: 50%<br/>
-            Rate/Term: 9.99%, 12 Months<br/>
-            Amortization: Interest Only<br/>
-            Compensation: $7,175.00 (175 BPS) split with referring broker<br/>
-            Lender: AP Capital<br/>
-            Income: BFS & Part Time Employee (NIQ)<br/>
-            Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vechile loan.
-          </p>
-        </div>
-      </div>
-      <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_6-min.jpg')"></div>
-        <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
-          <h2 class="font-weight-bold">CALGARY, AB</h2>
-          <p>Appraisal Value: $18,500,000.00<br/>
-            Existing 1st Mortage: $528.627.12<br/>
-            2nd Morgage: $410,000.00<br/>
-            LTV: 50%<br/>
-            Rate/Term: 9.99%, 12 Months<br/>
-            Amortization: Interest Only<br/>
-            Compensation: $7,175.00 (175 BPS) split with referring broker<br/>
-            Lender: AP Capital<br/>
-            Income: BFS & Part Time Employee (NIQ)<br/>
-            Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vechile loan.
-          </p>
-        </div>
-      </div>
-      <div class="img_wrapper col-3 px-1 h-100">
-        <div class="h-100 image-index-container" style="background-image: url('img/testimonial_7-min.jpg')"></div>
-        <div class="img_description h-100 mx-1 p-lg-5 p-3 text-center img_description_text">
-          <h2 class="font-weight-bold">CALGARY, AB</h2>
-          <p>Appraisal Value: $18,500,000.00<br/>
-            Existing 1st Mortage: $528.627.12<br/>
-            2nd Morgage: $410,000.00<br/>
-            LTV: 50%<br/>
-            Rate/Term: 9.99%, 12 Months<br/>
-            Amortization: Interest Only<br/>
-            Compensation: $7,175.00 (175 BPS) split with referring broker<br/>
-            Lender: AP Capital<br/>
-            Income: BFS & Part Time Employee (NIQ)<br/>
-            Credit: 671 & 749<br/>
-            Deal Notes: Refinance of 2nd mortgage to pay off existing/more expensive 2nd & pull funds to pay off a vechile loan.
-          </p>
-        </div>
-      </div>
+    <div class="d-flex justify-content-center">
+      <a class="btn btn-lg btn-square btn-dark" href="recentlyFunded.php" style="width:300px;">SEE MORE HERE</a>
     </div>
   </div>
   <div id="index_contact" class="py-lg-5 py-3">
@@ -249,8 +202,8 @@
               </div>
             </div>
             <div class="form-group">
-              <label>Message</label>
-              <textarea class="form-control" id="message" rows="6" name="message"></textarea>
+              <label>Message *</label>
+              <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
             </div>
             <div class="d-flex justify-content-center">
               <button type="submit" class="btn btn-dark btn-square mb-3">
