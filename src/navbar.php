@@ -12,7 +12,7 @@ require_once ("header.php");
         <div class="col-1">
         </div>
         <div onclick="location.href='index.php'" class="navbar-brand d-block d-lg-none font-theme ml-auto mr-auto fadeIn">
-          <img style="width:200px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.png">
+          <img style="width:200px; height:100px; padding-bottom:10px;" src="./img/BTeamLogo.jpg">
         </div>
         <button class="navbar-toggler mt-4 col-1" style="height:fit-content; border:3px solid;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>

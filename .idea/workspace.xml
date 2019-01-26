@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c098cda-8682-4c45-a9c1-4aff5ab4913c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.44254658">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/lender-form.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
+                <state relative-caret-position="280">
                   <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/img/BTeamLogoSimplified.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/navbar.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="95" selection-start-line="14" selection-start-column="95" selection-end-line="14" selection-end-column="95" />
                 </state>
               </provider>
             </entry>
@@ -31,14 +45,14 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+                <state relative-caret-position="459">
+                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/img/contact.jpg">
+            <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.png">
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
@@ -113,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/site.webmanifest" />
         <option value="$PROJECT_DIR$/test/file_existence.js" />
         <option value="$PROJECT_DIR$/src/js/jquery-3.3.1.min.js" />
-        <option value="$PROJECT_DIR$/src/navbar.php" />
         <option value="$PROJECT_DIR$/src/header.php" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/footer.php" />
@@ -130,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/contact.php" />
         <option value="$PROJECT_DIR$/src/broker-signup-modal.php" />
         <option value="$PROJECT_DIR$/src/broker-form.php" />
+        <option value="$PROJECT_DIR$/src/navbar.php" />
       </list>
     </option>
   </component>
@@ -205,19 +219,19 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\BTeam\src\img" />
-      <recent name="C:\Users\fenco\IdeaProjects\BTeam\src\img" />
-      <recent name="C:\workspace\BTeam\src\video" />
-      <recent name="C:\workspace\BTeam\src\gif" />
-      <recent name="C:\workspace\BTeam\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\BTeam\src\img\recentlyFunded" />
       <recent name="C:\workspace\BTeam\src\img\SFDSurrey.jpg" />
       <recent name="C:\workspace\BTeam\src\img\SFDSurrey" />
       <recent name="C:\workspace\BTeam\src" />
       <recent name="C:\workspace\BTeam\src\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\BTeam\src\img" />
+      <recent name="C:\Users\fenco\IdeaProjects\BTeam\src\img" />
+      <recent name="C:\workspace\BTeam\src\video" />
+      <recent name="C:\workspace\BTeam\src\gif" />
+      <recent name="C:\workspace\BTeam\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,12 +356,12 @@
       <workItem from="1543384340417" duration="3085000" />
       <workItem from="1543387450119" duration="2613000" />
       <workItem from="1543442908876" duration="6407000" />
-      <workItem from="1548467745204" duration="744000" />
+      <workItem from="1548467745204" duration="1531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389909000" />
+    <option name="totallyTimeSpent" value="390696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,10 +444,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/img/up-arrow.svg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/brown-background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -465,7 +475,6 @@
     <entry file="file://$PROJECT_DIR$/test/file_content.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.jpg" />
     <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -545,13 +554,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,22 +670,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/contact.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lender-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="280">
           <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/header.php">
+    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogoSimplified.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" column="95" selection-start-line="14" selection-start-column="95" selection-end-line="14" selection-end-column="95" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/contact.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
