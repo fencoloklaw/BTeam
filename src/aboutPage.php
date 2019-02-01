@@ -33,7 +33,7 @@
         </div>
         <div class="col">
           <!--          make sure font-family is the same-->
-          <h2 class="font-weight-bold" style="color: #4D4B4B;">ASIM</h2>
+          <h2 class="font-weight-bold" style="color: #4D4B4B;">Asim</h2>
           <h6 class="font-theme">BIO</h6>
           <p>Over the years, Asim has expanded his network, where now he is working with all major lenders in the finance & mortgage industry. Today, Asim & his team are in 0.4% of all mortgage brokers or teams in Canada. Asim has extensive experience in assisting first time home buyers, new to canada, refinancing, rental properties, debt consolidation, equity take-out, renovation loans, commercial loans, private mortgages, construction financing, line of credit, or even bad credit mortgages. His passion in helping individuals in all sorts of situations is recognized through various awards Asim has been nominated for. </p>
         </div>

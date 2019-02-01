@@ -299,7 +299,9 @@ p {
 }
 
 .h1, h1 {
-  font-size: 3rem;
+  font-size: 4.2em;
+  line-height: 1.1em;
+  font-weight: 300;
 }
 
 h1, h2 ,h3 ,h4 ,h5, h6 {
@@ -308,6 +310,9 @@ h1, h2 ,h3 ,h4 ,h5, h6 {
 
 p {
   font-family: "ff-din-web",helvetica,arial,sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.075em;
+  line-height: 1.75em;
 }
 /*
  * What follows is the result of much research on cross-browser styling.

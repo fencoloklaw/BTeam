@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c098cda-8682-4c45-a9c1-4aff5ab4913c" name="Default" comment="" />
+    <list default="true" id="6c098cda-8682-4c45-a9c1-4aff5ab4913c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aboutPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/aboutPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +34,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/navbar.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="235">
+                <state relative-caret-position="544">
                   <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.jpg">
               <provider selected="true" editor-type-id="images" />
             </entry>
@@ -46,15 +50,45 @@
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="372">
+                  <caret line="311" column="40" selection-start-line="311" selection-start-column="40" selection-end-line="311" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/aboutPage.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+                  <folding>
+                    <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/aboutPage.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -74,7 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>video</find>
       <find>frontPage</find>
       <find>navbar .scrolled</find>
       <find>scrolled</find>
@@ -98,12 +131,13 @@
       <find>image-container</find>
       <find>lender</find>
       <find>our</find>
-      <find>h1</find>
       <find>theme</find>
       <find>font-theme</find>
       <find>surrey</find>
       <find>our phil</find>
       <find>BTeam</find>
+      <find>h4</find>
+      <find>h1</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -139,14 +173,14 @@
         <option value="$PROJECT_DIR$/src/email_contact.php" />
         <option value="$PROJECT_DIR$/src/lender-form.php" />
         <option value="$PROJECT_DIR$/src/lender-signup-modal.php" />
-        <option value="$PROJECT_DIR$/src/aboutPage.php" />
         <option value="$PROJECT_DIR$/src/index.php" />
-        <option value="$PROJECT_DIR$/src/css/main.css" />
         <option value="$PROJECT_DIR$/src/recentlyFunded.php" />
         <option value="$PROJECT_DIR$/src/contact.php" />
         <option value="$PROJECT_DIR$/src/broker-signup-modal.php" />
         <option value="$PROJECT_DIR$/src/broker-form.php" />
         <option value="$PROJECT_DIR$/src/navbar.php" />
+        <option value="$PROJECT_DIR$/src/aboutPage.php" />
+        <option value="$PROJECT_DIR$/src/css/main.css" />
       </list>
     </option>
   </component>
@@ -173,6 +207,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,7 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,19 +256,19 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\BTeam\src\img\recentlyFunded" />
-      <recent name="C:\workspace\BTeam\src\img\SFDSurrey.jpg" />
-      <recent name="C:\workspace\BTeam\src\img\SFDSurrey" />
-      <recent name="C:\workspace\BTeam\src" />
-      <recent name="C:\workspace\BTeam\src\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\BTeam\src\img" />
       <recent name="C:\Users\fenco\IdeaProjects\BTeam\src\img" />
       <recent name="C:\workspace\BTeam\src\video" />
       <recent name="C:\workspace\BTeam\src\gif" />
       <recent name="C:\workspace\BTeam\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\BTeam\src\img\recentlyFunded" />
+      <recent name="C:\workspace\BTeam\src\img\SFDSurrey.jpg" />
+      <recent name="C:\workspace\BTeam\src\img\SFDSurrey" />
+      <recent name="C:\workspace\BTeam\src" />
+      <recent name="C:\workspace\BTeam\src\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,11 +395,13 @@
       <workItem from="1543442908876" duration="6407000" />
       <workItem from="1548467745204" duration="2304000" />
       <workItem from="1548918516126" duration="198000" />
+      <workItem from="1548918815497" duration="307000" />
+      <workItem from="1548996727884" duration="827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391667000" />
+    <option name="totallyTimeSpent" value="392801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,8 +414,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34594882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35341153" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -625,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aboutPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -688,21 +711,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="544">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.png">
+    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.jpg">
+    <entry file="file://$PROJECT_DIR$/src/img/BTeamLogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="311" column="40" selection-start-line="311" selection-start-column="40" selection-end-line="311" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aboutPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
